@@ -1,5 +1,5 @@
 //ตัวแปร var  global  , let  local 
-var a = 10 ;
+// var a = 10 ;
 
 // (() => {
 // function run(){
@@ -39,19 +39,54 @@ var a = 10 ;
 // }
 // setInterval(() => sa(), 100);
 
-
 // })() ;
 
+// var grade = 4 ;
+// grade = 73;
 
-var grade = 4 ;
-grade = 73;
+// if (grade  >= 4 ){
+//     console.log('grade ' + grade);  
+// }
+// if(grade ===   4) {
+//     console.log('sa');
 
-if (grade  >= 4 ){
-    console.log('grade ' + grade);  
+//for(ค่าเริ่มต้น เงื่อนไข การกระทำต่อตัวแปรหากเป็นจริง)
+
+
+// for (var i = 1 ; i <= 12 ; i++){
+    
+//     console.log(i);
+
+// }
+
+function main(a,b){
+    
+    var z = a * b ;
+    // console.log(z);
+    return z 
 }
-if(grade ===   4) {
-    console.log('sa');
-}
 
 
+
+var a1 = main(1 ,2);          //สร้าง ตัวแปรมารับ เป็น a1 
+var a2 = main( 2, 3);          // สร้าง a2 มารับ
+
+console.log(' a1 ' + ' = ' + a1 + ' a2 ' + ' = ' + a2 );    //ใช้ a1 กับ a2 จากด้านบน มาใช้
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// setInterval( () => main(4,5) , 100  );
 
